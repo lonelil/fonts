@@ -1,0 +1,22 @@
+name: Minify
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  minify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Minify
+      uses: nizarmah/auto-minify@v2.1
+      with:
+         directory: 'public'
+    - name: Commit minified files
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+         repository: 'js'
+         commit_message: "Github Action: Auto Minified CSS files"
+         branch: ${{ github.ref }}
