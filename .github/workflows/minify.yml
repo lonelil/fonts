@@ -14,9 +14,10 @@ jobs:
       uses: nizarmah/auto-minify@v2.1
       with:
          directory: 'public'
-    - name: Commit minified files
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-         repository: 'js'
-         commit_message: "Github Action: Auto Minified CSS files"
-         branch: ${{ github.ref }}
+    - name: Push to GitHub
+      run: |
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git add .
+        git commit -m "chore: minify cas files"
+        git push
