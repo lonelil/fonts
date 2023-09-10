@@ -33,4 +33,12 @@ export const fontMap = [
     id: "UniversalSans",
     name: "Universal Sans Regular",
   },
+  {
+    id: "satoshi",
+    name: "Satoshi Variable",
+  },
+  {
+    id: "FireCode",
+    name: "Fira Code",
+  },
 ];
