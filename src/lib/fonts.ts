@@ -22,7 +22,7 @@ export const fontMap = [
   },
   { id: "NeueHaasGrotesk", name: "neue-haas-grotesk-display" },
   {
-    id: "sf-pro",
+    id: "SFPro",
     name: "SF Pro Display",
   },
   {
@@ -34,8 +34,8 @@ export const fontMap = [
     name: "Universal Sans Regular",
   },
   {
-    id: "satoshi",
-    name: "Satoshi Variable",
+    id: "TradeGothicNext",
+    name: "trade-gothic-next",
   },
   {
     id: "FiraCode",

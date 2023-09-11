@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Satoshi Variable";
+  src: url("X6XYTKIVDUW7GZTZPZNN4EUM5KH54KHF.woff2") format("woff2"),
+    url("X6XYTKIVDUW7GZTZPZNN4EUM5KH54KHF.woff") format("woff"),
+    url("X6XYTKIVDUW7GZTZPZNN4EUM5KH54KHF.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi Variable";
+  src: url("E3NEPGEAHYCHR37DSBXHV33XCYYRE2CY.woff2") format("woff2"),
+    url("E3NEPGEAHYCHR37DSBXHV33XCYYRE2CY.woff") format("woff"),
+    url("E3NEPGEAHYCHR37DSBXHV33XCYYRE2CY.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("WNDVG7O66ENLOD43GS7FBUCC4KMT5OM2.woff2") format("woff2"),
+    url("WNDVG7O66ENLOD43GS7FBUCC4KMT5OM2.woff") format("woff"),
+    url("WNDVG7O66ENLOD43GS7FBUCC4KMT5OM2.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("MVBFGLEMN2LQF4RKXAFO4YZFKXTEZ7FQ.woff2") format("woff2"),
+    url("MVBFGLEMN2LQF4RKXAFO4YZFKXTEZ7FQ.woff") format("woff"),
+    url("MVBFGLEMN2LQF4RKXAFO4YZFKXTEZ7FQ.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2") format("woff2"),
+    url("KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff") format("woff"),
+    url("KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("QOMBWPST76ICDYF6WOBS7SQ7RBT67QW2.woff2") format("woff2"),
+    url("QOMBWPST76ICDYF6WOBS7SQ7RBT67QW2.woff") format("woff"),
+    url("QOMBWPST76ICDYF6WOBS7SQ7RBT67QW2.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2") format("woff2"),
+    url("7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff") format("woff"),
+    url("7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("ZHME2QIRFR7UPJ47NLY27RCAFY44CKZJ.woff2") format("woff2"),
+    url("ZHME2QIRFR7UPJ47NLY27RCAFY44CKZJ.woff") format("woff"),
+    url("ZHME2QIRFR7UPJ47NLY27RCAFY44CKZJ.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2") format("woff2"),
+    url("GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff") format("woff"),
+    url("GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("BKWEE3VKGTFABE37K2DTH625VUSN2N35.woff2") format("woff2"),
+    url("BKWEE3VKGTFABE37K2DTH625VUSN2N35.woff") format("woff"),
+    url("BKWEE3VKGTFABE37K2DTH625VUSN2N35.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("J64QX5IPOHK56I2KYUNBQ5M2XWZEYKYX.woff2") format("woff2"),
+    url("J64QX5IPOHK56I2KYUNBQ5M2XWZEYKYX.woff") format("woff"),
+    url("J64QX5IPOHK56I2KYUNBQ5M2XWZEYKYX.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("TCTRLNEXANFIGSFCZTGQL7PZ5362GYK6.woff2") format("woff2"),
+    url("TCTRLNEXANFIGSFCZTGQL7PZ5362GYK6.woff") format("woff"),
+    url("TCTRLNEXANFIGSFCZTGQL7PZ5362GYK6.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "trade-gothic-next";
+  src: url("l.woff2") format("woff2"), url("d.woff") format("woff"),
+    url("a.otf") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
