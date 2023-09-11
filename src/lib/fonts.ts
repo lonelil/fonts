@@ -38,7 +38,7 @@ export const fontMap = [
     name: "Satoshi Variable",
   },
   {
-    id: "FireCode",
+    id: "FiraCode",
     name: "Fira Code",
   },
 ];
