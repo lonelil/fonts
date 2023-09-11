@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         {getAllFonts().map((font, i) => {
           return (
-            <link key={i} rel="stylesheet" href={`/fonts/${font}/use.css`} />
+            <link key={i} rel="stylesheet" href={`/fonts/${font}/use.min.css`} />
           );
         })}
       </head>
