@@ -41,4 +41,8 @@ export const fontMap = [
     id: "FiraCode",
     name: "Fira Code",
   },
+  {
+    id: "NetflixSans",
+    name: "Netflix Sans",
+  },
 ];
