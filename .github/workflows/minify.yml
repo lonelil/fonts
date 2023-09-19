@@ -5,10 +5,7 @@ permissions:
 
 on:
   push:
-    paths:
-      - "public"
-      - ".github/workflows/minify.yml"
-
+    branches: [ "main" ]
 
 jobs:
   minify:
