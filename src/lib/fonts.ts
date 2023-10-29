@@ -45,4 +45,12 @@ export const fontMap = [
     id: "NetflixSans",
     name: "Netflix Sans",
   },
+  {
+    id: "GeistSans",
+    name: "Geist Sans",
+  },
+  {
+    id: "GeistMono",
+    name: "Geist Mono",
+  },
 ];
