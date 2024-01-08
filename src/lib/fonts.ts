@@ -53,4 +53,12 @@ export const fontMap = [
     id: "GeistMono",
     name: "Geist Mono",
   },
+  {
+    id: "AeonikPro",
+    name: "Aenoik Pro",
+  },
+  {
+    id: "AeonikFono",
+    name: "Aenoik Fono",
+  },
 ];
