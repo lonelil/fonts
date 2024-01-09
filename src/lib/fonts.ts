@@ -61,4 +61,8 @@ export const fontMap = [
     id: "AeonikFono",
     name: "Aenoik Fono",
   },
+  {
+    id: "Aeonik",
+    name: "Aeonik-Regular",
+  },
 ];

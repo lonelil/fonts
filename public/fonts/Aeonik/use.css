@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Aeonik-Air";
+  src: url("Aeonik-Air.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-Air.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-Air.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-Air.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-AirItalic";
+  src: url("Aeonik-AirItalic.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-AirItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-AirItalic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-AirItalic.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-Black";
+  src: url("Aeonik-Black.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-Black.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-Black.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-Black.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-BlackItalic";
+  src: url("Aeonik-BlackItalic.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-BlackItalic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-BlackItalic.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-Bold";
+  src: url("Aeonik-Bold.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-Bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-Bold.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-BoldItalic";
+  src: url("Aeonik-BoldItalic.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-BoldItalic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-BoldItalic.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-Light";
+  src: url("Aeonik-Light.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-Light.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-Light.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-Light.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-LightItalic";
+  src: url("Aeonik-LightItalic.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-LightItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-LightItalic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-LightItalic.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-Medium";
+  src: url("Aeonik-Medium.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-Medium.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-Medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-Medium.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-MediumItalic";
+  src: url("Aeonik-MediumItalic.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-MediumItalic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-MediumItalic.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-Regular";
+  src: url("Aeonik-Regular.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-Regular.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-RegularItalic";
+  src: url("Aeonik-RegularItalic.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-RegularItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-RegularItalic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-RegularItalic.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-Thin";
+  src: url("Aeonik-Thin.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-Thin.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-Thin.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-Thin.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aeonik-ThinItalic";
+  src: url("Aeonik-ThinItalic.eot"); /* IE9 Compat Modes */
+  src: url("Aeonik-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Aeonik-ThinItalic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Aeonik-ThinItalic.woff") format("woff"); /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
