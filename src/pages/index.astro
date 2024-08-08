@@ -1,0 +1,72 @@
+---
+import fs from "fs";
+import "@/styles/globals.css";
+const fonts = fs.readdirSync("./public/fonts");
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+
+function splitCamelCase(input: string): string {
+  return input.replace(/([a-z])([A-Z])/g, "$1 $2");
+}
+
+function getFontName(font: string) {
+  switch (font) {
+    case "AenoikTRIAL":
+      return "aeonik_trialregular";
+    case "CathaySans":
+      return "Cathay Sans EN Regular";
+    case "CircularSp":
+      return "CircularSpTitle";
+    case "GGSans":
+      return "gg sans";
+    case "NeueHaasGrotesk":
+      return "neue-haas-grotesk-display";
+    case "SFPro":
+      return "SF Pro Display";
+    case "TSMidnights":
+      return "Neue Haas Grotesk Display Pro";
+    case "TradeGothicNext":
+      return "trade-gothic-next";
+    default:
+      return font;
+  }
+}
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Fonts</title>
+    {
+      fonts.map((font) => (
+        <link
+          rel="stylesheet"
+          href={`https://cdn.jsdelivr.net/gh/lonelil/fonts@latest/public/fonts/${font}/use.min.css`}
+        />
+      ))
+    }
+  </head>
+  <body class="dark bg-background min-h-screen antialiase font-sans p-6">
+    <h1 class="text-4xl font-semibold">Fonts</h1>
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 mt-4">
+      {
+        fonts.map((font) => (
+          <Card className="w-full">
+            <CardHeader className="pb-2">
+              <CardTitle>{font}</CardTitle>
+            </CardHeader>
+            <CardContent
+              style={{
+                fontFamily: `${getFontName(font)}, ${splitCamelCase(font)}`,
+              }}
+            >
+              <p>The quick brown fox jumps over the lazy dog.</p>
+            </CardContent>
+          </Card>
+        ))
+      }
+    </div>
+  </body>
+</html>
