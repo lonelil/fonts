@@ -5,6 +5,9 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  build: {
+    assets: "_lonelil",
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
